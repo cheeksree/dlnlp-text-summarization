@@ -1,4 +1,4 @@
-from dlnlp.DataLoaders import get_content
+from dlnlp.dlnlp.DataLoaders import get_content
 import sklearn.metrics
 from sklearn.feature_extraction.text import TfidfVectorizer as tf
 import numpy as np
