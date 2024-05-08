@@ -21,8 +21,7 @@ def page_rank(sim_mat):
         prev_diff = sum(pr_vector)
     return pr_vector
 
-def textSummary_m(path_f):
-    f_list = get_content(path_f)
+def textSummary_m(f_list):
     x = convert_td_idf(f_list)
     sim_mat = sklearn.metrics.pairwise.cosine_similarity(x)
     pr_vec = page_rank(sim_mat)
