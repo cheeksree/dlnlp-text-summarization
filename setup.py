@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(name="dlnlp", version="1.0",
       description="NLP deep learning examples",
@@ -6,6 +6,6 @@ setup(name="dlnlp", version="1.0",
       url="https://github.com/cheeksree/dlnlp/",
       author="sree",
       author_email="cheeksree@gmail.com",
-      packages=["dlnlp"],
+      packages=find_packages(),
       license="MIT",
       requires=["numpy"])
