@@ -6,6 +6,6 @@ setup(name="dlnlp", version="1.0",
       url="https://github.com/cheeksree/dlnlp/",
       author="sree",
       author_email="cheeksree@gmail.com",
-      packages=["app","Dataloaders","mlm"],
+      packages=["dlnlp","app","Dataloaders","mlm"],
       license="MIT",
       requires=["numpy"])
