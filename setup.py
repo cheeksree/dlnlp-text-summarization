@@ -8,4 +8,4 @@ setup(name="dlnlp", version="1.0",
       author_email="cheeksree@gmail.com",
       packages=["dlnlp","app","Dataloaders","mlm"],
       license="MIT",
-      requires=["numpy"])
+      install_requires=["numpy"])
