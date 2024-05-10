@@ -1,5 +1,5 @@
-from dlnlp.DataLoaders import get_content
-from dlnlp.mlm.skl_tfidf import textSummary_m
+from ..DataLoaders import get_content
+from ..mlm.skl_tfidf import textSummary_m
 class TextSummary:
     def __init__(self, data_src="", ml_module=""):
         self.data_src = data_src
