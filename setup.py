@@ -8,4 +8,4 @@ setup(name="dlnlp", version="1.0",
       author_email="cheeksree@gmail.com",
       packages=find_packages(),
       license="MIT",
-      install_requires=["numpy"])
+      install_requires=["numpy","torch","sklearn"])
